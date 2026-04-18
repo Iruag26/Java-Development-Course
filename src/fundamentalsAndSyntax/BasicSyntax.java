@@ -19,14 +19,10 @@ public class BasicSyntax {
         JVM searches for this, code will not be executed without it.
 
         * String - https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
-        * args
+        * args - Stands for arguments, it is an array that accepts stream of arguments.
         * */
-
 
         System.out.println("Hello Mom");
 
-        /* multiple
-           lines
-           comment */
     }
 }
