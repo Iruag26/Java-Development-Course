@@ -17,8 +17,12 @@ public class DataTypes {
     char c = 'c';
     boolean b = true;
     byte by = 0;
-    short s = 4;
-    long l = 4444444;
+    /*
+    short: -32,768 to 32,767
+    long: -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+    */
+    short s = 32767;
+    long l = 9223372036854775807L;
 
     //type casting
 
